@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&display=swap');
+
+.html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 300;
+    min-height: 100vh; /* Asegura que el cuerpo de la página tenga al menos la altura de la ventana */
+	display: flex;
+	flex-direction: column; 
+}
+
+
+
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: #333;
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #555;
+    color: #fff;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Posiciona el elemento en la parte inferior de la ventana */
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
